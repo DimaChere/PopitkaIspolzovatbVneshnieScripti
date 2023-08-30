@@ -1,6 +1,6 @@
 "use strict";
-let dots = document.getElementsByClassName("script-part__dot");
 function animateDots() {
+  let dots = document.getElementsByClassName("script-part__dot");
   let i = 0;
   let int = setInterval(() => {
     if (i >= dots.length - 1) {
